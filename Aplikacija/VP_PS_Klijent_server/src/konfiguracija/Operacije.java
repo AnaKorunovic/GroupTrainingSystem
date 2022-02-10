@@ -1,0 +1,46 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Enum.java to edit this template
+ */
+package konfiguracija;
+
+/**
+ *
+ * @author Ana
+ */
+public enum Operacije {
+   
+    KREIRAJ_TRENERA,
+    KREIRAJ_CLANA,
+    KREIRAJ_GRUPU,
+    KREIRAJ_PRISUSTVO,
+    
+    ZAPAMTI_TERMIN,
+    ZAPAMTI_LISTU_TERMINA,
+    
+    
+    ZAPAMTI_CLANA,
+    VRATI_CLANA,
+    VRATI_CLANA_SAUSLOVOM_IDCLANA,
+    VRATI_TERMIN,
+    VRATI_SVE_TRENERE,
+    VRATI_SVE_GRUPE,
+    VRATI_SVE_CLANOVE,
+    VRATI_SVE_TERMINE,
+    VRATI_GRUPU_SAUSLOVOM_IMEGRUPE,
+    VRATI_GRUPU_SAUSLOVOM_IDGRUPE,
+    VRATI_GRUPE_SAUSLOVOM_IDTRENERA,
+    VRATI_TRENERA_SAUSLOVOM_IDTRENERA,
+    VRATI_TRENERE_SAUSLOVOM_IMETRENERA,
+    VRATI_CLANOVE_SAUSLOVOM_IDGRUPE,
+    VRATI_TERMINE_SAUSLOVOM_DANGRUPA,
+    VRATI_TERMINE_SAUSLOVOM_DAN,
+    VRATI_TERMINE_SAUSLOVOM_DODAN,
+    VRATI_TERMINE_SAUSLOVOM_GRUPA,
+    VRATI_PRISUSTVO_SAUSLOVOM_IDTERMINA,
+    OBRISI_TRENERA,
+    OBRISI_TERMIN,
+    PRIJAVA,
+    ODJAVA
+    ;
+}
